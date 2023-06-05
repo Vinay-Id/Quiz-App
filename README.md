@@ -14,7 +14,10 @@ The Quiz App is a web-based application that allows users to take quizzes on dif
 
 - Play Again: Users have the option to play the quiz again by clicking the "Play Again" button.
 
+## Getting Started
+
 **Install dependencies:**
 npm install
+
 **Start the development server:**
 npm run dev
