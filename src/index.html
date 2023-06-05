@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./Assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./Assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./Assets/favicon/favicon-16x16.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <h1>Quiz App</h1>
+        <div id="topic-selection">
+          <h2>Select a Topic:</h2>
+          <ul id="topic-list"></ul>
+          <button id="reset-btn">Reset</button>
+        </div>
+        <div id="quiz" style="display: none">
+          <div class="question">
+            <h3 id="question-text"></h3>
+          </div>
+          <div class="options" id="optionsBox"></div>
+          <div class="result" id="result"></div>
+          <div class="btn-container">
+            <button class="btn" id="prev-btn">Previous</button>
+            <button class="btn" id="next-btn">Next</button>
+          </div>
+          <div id="play-again-container" style="display: none">
+            <button class="btn" id="play-again-btn">Play Again</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
